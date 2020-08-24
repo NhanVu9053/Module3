@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Employee>
+@{
+    //var employees = ViewData["Employees"] as IEnumerable<MVCDemo.Models.Employee>;
+    //var employees = ViewBag.Employees as IEnumerable<Employee>;
+    //Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Employee List";
+}
+
+<div class=" row">
+    @foreach (var employee in Model)
+    {
+        var avatarPath = $"/images/{(employee.AvatarPath?? "marvel2.png")}";
+        // 1 dong co 4 cot
+        <div class=" col-sm-3">
+            <div class=" card my-3">
+                <div class=" card" >
+                    <div class=" card-header text-center">
+                        <h4>@employee.FullName</h4>
+                    </div>
+                    <img src="@avatarPath" class="card-img-top" alt="Alternate Text" height="225" asp-append-version="true" />
+                    <div class=" card-footer">
+                        @*<a href="@Url.Action("Details","Home",new { Id = employee.Id})" class="btn btn-warning ">View</a>*@
+                        <a asp-controller="Home" asp-action="Details" asp-route-id="@employee.Id" class=" btn btn-info">View </a>
+                        <a asp-controller="Home" asp-action="Edit" asp-route-id="@employee.Id" class=" btn btn-primary"> Edit </a>
+                        <a asp-controller="Home" asp-action="Details" asp-route-id="@employee.Id" class=" btn btn-danger">Delete</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

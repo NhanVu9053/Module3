@@ -1,0 +1,15 @@
+﻿@{
+    var employees = ViewData["Employees"] as IEnumerable<DemoBTAnhKhoa.Models.Employee>;
+
+}
+@foreach (var employee in employees)
+{
+    <div>
+
+        <h3>@employee.FullName</h3>
+        <img src="@Url.Content(employee.AvatarPath)" alt="Alternate Text" />
+        <h4>@employee.Email</h4>
+        <h4>@employee.Department</h4>
+    </div>
+
+}

@@ -1,0 +1,27 @@
+﻿@model HomeDetailViewModel
+@{
+    //Layout = "~/Views/Shared/_layout.cshtml";
+    ViewBag.Title = Model.TitleName;
+    var avatarPath = $"/images/{(Model.Employee.AvatarPath ?? "marvel2.png")}";
+    //var employee = ViewBag.Employees as Employee;
+}
+<div class="row justify-content-center">
+    <div class=" col-sm-6">
+        <div class="card my-2 ">
+            <div class=" card-header text-center">
+                <h4>@Model.Employee.FullName</h4>
+            </div>
+            <div class=" card-body text-center">
+                <img src="@avatarPath" class="card-img-top" alt="Alternate Text" asp-append-version="true" />
+                <h5>Employee Id: @Model.Employee.Id</h5>
+                <h5>Email: @Model.Employee.Email</h5>
+                <h5>Department: @Model.Employee.Department</h5>
+            </div>
+            <div class=" card-footer text-center">
+                <a asp-contoller="Home" asp-action="Index" class=" btn btn-warning">Back</a>
+                <a asp-controller="Home" asp-action="Edit" asp-route-id="@Model.Employee.Id" class=" btn btn-primary">Edit</a>
+                <a asp-controller="Home" asp-action="Delete" asp-route-id="@Model.Employee.Id" class=" btn btn-danger">Delete</a>
+            </div>
+        </div>
+    </div>
+</div>

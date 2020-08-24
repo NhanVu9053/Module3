@@ -1,0 +1,45 @@
+﻿@model CreateViewRoleModel
+@{
+    ViewBag.Titile = "Create Role";
+
+}
+
+<h3>Role managment &gt; @ViewBag.Title</h3>
+
+<div class="container py-5">
+    <div class="row">
+        <div class="col-md-12">
+
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <div class="card border-secondary">
+                        <div class="card-header">
+                            <h3 class="mb-0 my-2 text-center">Login</h3>
+                        </div>
+                        <div class="card-body">
+                            <form class="form" role="form" asp-controller="Account" asp-action="Login" method="post" autocomplete="off">
+                                <div asp-validation-summary="All" class="text-danger"></div>
+                              
+                                <div class="form-group">
+                                    <label for="inputEmail3">Email</label>
+                                    <input asp-for="RoleName" type="email" class="form-control" id="inputEmail3" placeholder="email@codegym.com" required="">
+                                    <span asp-validation-for="RoleName" class="text-danger"></span>
+                                </div>
+                               
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-success btn-lg float-lg-right" style="width:auto">Create</button>
+                                    <a asp-controller="Role" asp-action="index" class="btn btn-warning">Back</a>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,5 @@
+D:\Modul3\WBE\WBEDemoTendu\WBETENDUdemo\eShopSolutionData\bin\Debug\netcoreapp3.1\eShopSolutionData.deps.json
+D:\Modul3\WBE\WBEDemoTendu\WBETENDUdemo\eShopSolutionData\bin\Debug\netcoreapp3.1\eShopSolutionData.dll
+D:\Modul3\WBE\WBEDemoTendu\WBETENDUdemo\eShopSolutionData\obj\Debug\netcoreapp3.1\eShopSolutionData.csprojAssemblyReference.cache
+D:\Modul3\WBE\WBEDemoTendu\WBETENDUdemo\eShopSolutionData\obj\Debug\netcoreapp3.1\eShopSolutionData.AssemblyInfoInputs.cache
+D:\Modul3\WBE\WBEDemoTendu\WBETENDUdemo\eShopSolutionData\obj\Debug\netcoreapp3.1\eShopSolutionData.AssemblyInfo.cs

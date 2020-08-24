@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = " Results not Found";
+}
+
+<div class="alert alert-danger mt-2">
+    <h1>
+        @ViewBag.ErrorMessage
+    </h1>
+    <hr />
+    <h5>
+        Please contact administator MarvelStudio@marvel.co
+    </h5>
+</div>
+<a asp-controller="Home" asp-action="Index" class="btn btn-outline-info" style="width:auto">
+    Click here to navigate home page
+
+</a>
