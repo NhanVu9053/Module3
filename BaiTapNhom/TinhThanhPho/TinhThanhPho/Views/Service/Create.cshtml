@@ -38,7 +38,7 @@
                 <input name="" class="form-control" placeholder="Phone number" type="text">
                 <span asp-validation-for=" SoDienThoai" class=" text-danger"></span>
             </div> <!-- form-group// -->
-           <!-- form-group end.// -->
+            <!-- form-group end.// -->
             <div class="form-group input-group">
                 <div class="input-group-prepend">
                     <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
@@ -62,7 +62,59 @@
 </div> <!-- card.// -->
 </div>
 <!--container end.//-->
+@*// chonh tinh thanh pho*@ @*cai nay em chua tao bootstrap*@
 
+<div class="row">
+    <div class="col-md-12">
+        <div class="form-group">
+            <label asp-for=" TinhTp " for="ddlProvince">Tỉnh thành</label>
+            <select asp-for="TinhTp" id="ddlProvince" class="form-control" onclick="getAllDistByPID(this.value)">
+
+                <option value="">Chọn tỉnh thành</option>
+            </select>
+            <span asp-validation-for=" TinhTp" class=" text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="QuanHuyen" for="ddlDistrict">Quận/Huyện</label>
+            <select asp-for="QuanHuyen" id="ddlDistrict" class="form-control" onclick="getAllWardByPID(this.value)">
+                <option value="">Chọn quận/huyện</option>
+            </select>
+            <span asp-validation-for=" QuanHuyen" class=" text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="PhuongXa" for="ddlWard">Phường/Xã</label>
+            <select asp-for="PhuongXa" id="ddlWard" class="form-control">
+                <option value="">Chọn phường/xã</option>
+            </select>
+            <span asp-validation-for=" PhuongXa" class=" text-danger"></span>
+        </div>
+        <div class=" row form-group">
+            <div class="col-sm-2">
+                <label asp-for=" Diachi "></label>
+            </div>
+            <div class=" col-sm-10">
+                <input asp-for=" Diachi" class=" form-control" />
+                <span asp-validation-for=" Diachi" class=" text-danger"></span>
+            </div>
+        </div>
+
+        <div class="col-md-12">
+            <div class="text-success">
+                Bạn đang ở khu vực: <div id="divResult"></div>
+            </div>
+        </div>
+        <div asp-validation-summary="None"></div>
+        <div class=" row form-group">
+
+            <div class=" col-sm-12">
+                <button type="submit" class=" btn btn-primary">Create</button>
+                <a asp-controller="Home" asp-action="Index" class="btn btn-warning">Back</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@*den ngang doan nay la het phan chon thanh pho*@ 
 <br>
 <br>
 <article class="bg-secondary mb-3">
