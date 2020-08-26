@@ -9,28 +9,24 @@
     <thead class=" thead-light">
         <tr>
             <th>Id</th>
-            <th>Ho Ten</th>
+            <th>Họ tên</th>
             <th>Email</th>
-            <th>Dia Chi</th>
-       
+            <th>Địa chỉ</th>
+
         </tr>
     </thead>
     <tbody>
-        
-           @foreach (var item in DbContext.users)
-            {
-        <tr>
-            <td>@item.MaTK</td>
-            <td>@item.HoTen</td>
-            <td>
-                @item.Email
-            </td>
-            <td>@item.Diachi</td>            
 
-          
-        </tr>
+        @foreach (var item in DbContext.users)
+        {
+            <tr>
+                <td>@item.MaTK</td>
+                <td>@item.HoTen</td>
+                <td> @item.Email </td>
+                <td>@item.Diachi</td>
+            </tr>
 
-            }
-        
+        }
+
     </tbody>
 </table>

@@ -11,16 +11,16 @@
 
 <h1>Đăng ký tài khoản</h1>
 <p>
-    Nếu bạn đã có tài khoản trên website xin hãy đăng nhập tại <a @*href="/Account/Login"*@
+    Nếu bạn đã có tài khoản trên website xin hãy đăng nhập tại <a href="/Account/Login"
                                                                   style="color:#024b94">đây</a>.
 </p>
 
 <form asp-controller="Service" asp-action="Create" method="post" class=" mt-4">
-    @*<div asp-validation-summary="None" class=" text-danger"></div>*@
+    <div asp-validation-summary="None" class=" text-danger"></div>
 
     <strong>Thông tin cá nhân</strong><hr />
-    <div class=" row form-group">
-        <div class="col-sm-2 ">
+    <div class=" row form-group ">
+        <div class="col-sm-2 ">           
             <label style="font-weight: bold" asp-for=" HoTen"></label>
         </div>
         <div class=" col-sm-10">
@@ -70,7 +70,7 @@
 
 
 
-    @*// chonh tinh thanh pho*@
+    // chonh tinh thanh pho
 
     <div class="row">
         <div class="col-md-12">
@@ -123,9 +123,9 @@
     </div>
     </form>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    @*@section Scripts1 {
+    @section Scripts1 {
             @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-        }*@
+        }
     @section Scripts{
         <script>
             getAllProvinces();
@@ -182,3 +182,5 @@
             });
         </script>
     }
+
+

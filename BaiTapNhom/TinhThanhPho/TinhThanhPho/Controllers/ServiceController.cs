@@ -57,18 +57,12 @@ namespace TinhThanhPho.Controllers
         [HttpPost]
         public IActionResult Create(User taikhoan)
         {
-
-         
-            //string diachi = context.provinces.Find(int.Parse(taikhoan.TinhTp))._name;
-            //diachi += ", Tỉnh/TP." + context.districts.Find(int.Parse(taikhoan.QuanHuyen))._name;
-            //diachi += ", Quận/Huyện" + context.wards.Find(int.Parse(taikhoan.PhuongXa))._name;
-            //diachi += ", Phường/Xã" + taikhoan.Diachi;
-            taikhoan.Diachi += ", Phường/Xã " + context.wards.Find(int.Parse(taikhoan.PhuongXa))._name;
-            taikhoan.Diachi += ", Quận/Huyện " + context.districts.Find(int.Parse(taikhoan.QuanHuyen))._name;
-            taikhoan.Diachi += ", Tỉnh/TP."+ context.provinces.Find(int.Parse(taikhoan.TinhTp))._name;
+            taikhoan.Diachi += ", " + context.wards.Find(int.Parse(taikhoan.PhuongXa))._name;
+            taikhoan.Diachi += ", " + context.districts.Find(int.Parse(taikhoan.QuanHuyen))._name;
+            taikhoan.Diachi += ", " + context.provinces.Find(int.Parse(taikhoan.TinhTp))._name;
             context.users.Add(taikhoan);
             context.SaveChanges();
-            return RedirectToAction("ShowItems","Service");
+            return RedirectToAction("ShowItems", "Service");
         }
         public IActionResult ShowItems()
         {

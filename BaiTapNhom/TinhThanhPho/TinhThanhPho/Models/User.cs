@@ -51,7 +51,7 @@ namespace TinhThanhPho.Models
         [Required(ErrorMessage = "Đây là trường bắt buộc"), MaxLength(70)]
         [Display(Name = "Phường/Xã")]
         public string PhuongXa { get; set; }
-        [Required(ErrorMessage = "Đây là trường bắt buộc"), MaxLength(100)]
+        [Required(ErrorMessage = "Đây là trường bắt buộc")]
         [Display(Name = "Địa chỉ")]
         public string Diachi { get; set; }
     }
