@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jaKbF57P1GHwiXJwiNV44tWbiMHk9iIU0nrAk1KyoXmGKygGKKHhomkT339QEGdNVWt0QKSjvhW1OtXmqFtJeg==",
+  "dgSpecHash": "99hFwwmrfwDpaA/LABL004vgWQ6zaa4mDE/ZRdZ0zU4+pY+xn2o27qX1Z/m8l8LsId7z+OQKmYF04rV3W+7tMg==",
   "success": true,
-  "projectFilePath": "D:\\Modul3\\WBE\\MVCDemo\\MVCDemo\\MVCDemo.csproj",
+  "projectFilePath": "D:\\WBD\\Module3\\WBE\\MVCDemo\\MVCDemo\\MVCDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.7\\microsoft.aspnetcore.cryptography.internal.3.1.7.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.7\\microsoft.aspnetcore.cryptography.keyderivation.3.1.7.nupkg.sha512",

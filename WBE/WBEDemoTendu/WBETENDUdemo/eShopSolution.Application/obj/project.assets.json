@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Modul3\\WBE\\WBEDemoTendu\\WBETENDUdemo\\eShopSolution.Application\\eShopSolution.Application.csproj",
+      "projectUniqueName": "D:\\WBD\\Module3\\WBE\\WBEDemoTendu\\WBETENDUdemo\\eShopSolution.Application\\eShopSolution.Application.csproj",
       "projectName": "eShopSolution.Application",
-      "projectPath": "D:\\Modul3\\WBE\\WBEDemoTendu\\WBETENDUdemo\\eShopSolution.Application\\eShopSolution.Application.csproj",
+      "projectPath": "D:\\WBD\\Module3\\WBE\\WBEDemoTendu\\WBETENDUdemo\\eShopSolution.Application\\eShopSolution.Application.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "D:\\Modul3\\WBE\\WBEDemoTendu\\WBETENDUdemo\\eShopSolution.Application\\obj\\",
+      "outputPath": "D:\\WBD\\Module3\\WBE\\WBEDemoTendu\\WBETENDUdemo\\eShopSolution.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

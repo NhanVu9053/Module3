@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Modul3\\WBE\\WBEDemoTendu\\WBETENDUdemo\\WBETenDuDemo\\WBETenDuDemo.csproj": {}
+    "D:\\WBD\\Module3\\WBE\\WBEDemoTendu\\WBETENDUdemo\\WBETenDuDemo\\WBETenDuDemo.csproj": {}
   },
   "projects": {
-    "D:\\Modul3\\WBE\\WBEDemoTendu\\WBETENDUdemo\\WBETenDuDemo\\WBETenDuDemo.csproj": {
+    "D:\\WBD\\Module3\\WBE\\WBEDemoTendu\\WBETENDUdemo\\WBETenDuDemo\\WBETenDuDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Modul3\\WBE\\WBEDemoTendu\\WBETENDUdemo\\WBETenDuDemo\\WBETenDuDemo.csproj",
+        "projectUniqueName": "D:\\WBD\\Module3\\WBE\\WBEDemoTendu\\WBETENDUdemo\\WBETenDuDemo\\WBETenDuDemo.csproj",
         "projectName": "WBETenDuDemo",
-        "projectPath": "D:\\Modul3\\WBE\\WBEDemoTendu\\WBETENDUdemo\\WBETenDuDemo\\WBETenDuDemo.csproj",
+        "projectPath": "D:\\WBD\\Module3\\WBE\\WBEDemoTendu\\WBETENDUdemo\\WBETenDuDemo\\WBETenDuDemo.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "D:\\Modul3\\WBE\\WBEDemoTendu\\WBETENDUdemo\\WBETenDuDemo\\obj\\",
+        "outputPath": "D:\\WBD\\Module3\\WBE\\WBEDemoTendu\\WBETENDUdemo\\WBETenDuDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

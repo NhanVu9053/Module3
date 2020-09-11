@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Modul3\\WBE\\MVCDemo\\MVCDemo\\MVCDemo.csproj": {}
+    "D:\\WBD\\Module3\\WBE\\MVCDemo\\MVCDemo\\MVCDemo.csproj": {}
   },
   "projects": {
-    "D:\\Modul3\\WBE\\MVCDemo\\MVCDemo\\MVCDemo.csproj": {
+    "D:\\WBD\\Module3\\WBE\\MVCDemo\\MVCDemo\\MVCDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Modul3\\WBE\\MVCDemo\\MVCDemo\\MVCDemo.csproj",
+        "projectUniqueName": "D:\\WBD\\Module3\\WBE\\MVCDemo\\MVCDemo\\MVCDemo.csproj",
         "projectName": "MVCDemo",
-        "projectPath": "D:\\Modul3\\WBE\\MVCDemo\\MVCDemo\\MVCDemo.csproj",
+        "projectPath": "D:\\WBD\\Module3\\WBE\\MVCDemo\\MVCDemo\\MVCDemo.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "D:\\Modul3\\WBE\\MVCDemo\\MVCDemo\\obj\\",
+        "outputPath": "D:\\WBD\\Module3\\WBE\\MVCDemo\\MVCDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

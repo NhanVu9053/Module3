@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n3CDzH2dbulHVvPJ6bco9DQzg1nFLZqbtRIft+1Me56CzfFwQu44lTz/joDv/pqjZQfkPFns7CcOe549G3HKIw==",
+  "dgSpecHash": "7aLIe/tM/lRhiWocuK/Fut16fZ8CvF2dUSSpzRZOu6MPoHed0oTIO1aggPqie8s0s62tuY7JHjKRvqfAsF5W/A==",
   "success": true,
-  "projectFilePath": "D:\\Modul3\\WBE\\WBEDemoTendu\\WBETENDUdemo\\eShopSolutionData\\eShopSolutionData.csproj",
+  "projectFilePath": "D:\\WBD\\Module3\\WBE\\WBEDemoTendu\\WBETENDUdemo\\eShopSolutionData\\eShopSolutionData.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

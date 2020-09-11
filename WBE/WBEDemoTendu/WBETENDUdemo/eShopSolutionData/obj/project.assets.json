@@ -7288,11 +7288,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Modul3\\WBE\\WBEDemoTendu\\WBETENDUdemo\\eShopSolutionData\\eShopSolutionData.csproj",
+      "projectUniqueName": "D:\\WBD\\Module3\\WBE\\WBEDemoTendu\\WBETENDUdemo\\eShopSolutionData\\eShopSolutionData.csproj",
       "projectName": "eShopSolutionData",
-      "projectPath": "D:\\Modul3\\WBE\\WBEDemoTendu\\WBETENDUdemo\\eShopSolutionData\\eShopSolutionData.csproj",
+      "projectPath": "D:\\WBD\\Module3\\WBE\\WBEDemoTendu\\WBETENDUdemo\\eShopSolutionData\\eShopSolutionData.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "D:\\Modul3\\WBE\\WBEDemoTendu\\WBETENDUdemo\\eShopSolutionData\\obj\\",
+      "outputPath": "D:\\WBD\\Module3\\WBE\\WBEDemoTendu\\WBETENDUdemo\\eShopSolutionData\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
