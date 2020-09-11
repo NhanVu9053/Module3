@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WBD\\ToKhaiYTe\\ToKhaiYTe\\ToKhaiYTe.csproj": {}
+    "D:\\WBD\\Module3\\ToKhaiYTe\\ToKhaiYTe\\ToKhaiYTe.csproj": {}
   },
   "projects": {
-    "D:\\WBD\\ToKhaiYTe\\ToKhaiYTe\\ToKhaiYTe.csproj": {
+    "D:\\WBD\\Module3\\ToKhaiYTe\\ToKhaiYTe\\ToKhaiYTe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WBD\\ToKhaiYTe\\ToKhaiYTe\\ToKhaiYTe.csproj",
+        "projectUniqueName": "D:\\WBD\\Module3\\ToKhaiYTe\\ToKhaiYTe\\ToKhaiYTe.csproj",
         "projectName": "ToKhaiYTe",
-        "projectPath": "D:\\WBD\\ToKhaiYTe\\ToKhaiYTe\\ToKhaiYTe.csproj",
+        "projectPath": "D:\\WBD\\Module3\\ToKhaiYTe\\ToKhaiYTe\\ToKhaiYTe.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "D:\\WBD\\ToKhaiYTe\\ToKhaiYTe\\obj\\",
+        "outputPath": "D:\\WBD\\Module3\\ToKhaiYTe\\ToKhaiYTe\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -45,6 +45,26 @@
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
             }
           },
           "imports": [
